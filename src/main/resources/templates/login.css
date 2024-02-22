@@ -1,0 +1,59 @@
+body{
+    background: hsl(224, 32%, 12%);
+    background-image: conic-gradient(
+        from 0deg at 50% 50%,
+        blue,
+        purple,
+        purple,
+        blue
+    );
+    background-blend-mode: multiply;
+    color: white;
+    min-block-size: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+a{
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 150px;
+    height: auto;
+}
+
+
+input{
+    background: none;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.234);
+    color: white;
+    background: hsl(224, 32%, 12%);
+    background-image: conic-gradient(
+        from 0deg at 50% 50%,
+        blue,
+        purple,
+        purple,
+        blue
+    );
+    background-blend-mode: multiply;
+}
+
+#formholder{
+    background-color: rgba(128, 128, 128, 0.134);
+    border-radius: 5px;
+}
+
+#suggest{
+    border: 2px solid rgba(128, 128, 128, 0.234);
+    border-radius: 5px;
+}
